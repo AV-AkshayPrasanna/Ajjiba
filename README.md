@@ -8,19 +8,17 @@
   <p>A thoughtful AI companion built to help students learn, think clearly, and become more productive.</p>
 
   <p>
-    <a href="https://ajjiba-ai.vercel.app/"><strong>🌐 Try Ajjiba Live</strong></a>
+    <a href="https://ajjiba-ai.vercel.app/"><strong>🌐 Live Demo</strong></a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/AV-AkshayPrasanna/Ajjiba-AI"><strong>💻 Source Code</strong></a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/AV-AkshayPrasanna/Ajjiba-AI/issues">Report an Issue</a>
+    <a href="https://github.com/AV-AkshayPrasanna/Ajjiba-AI/issues"><strong>🐛 Report an Issue</strong></a>
   </p>
 
   <p>
-    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-black?logo=next.js" />
-    <img alt="React" src="https://img.shields.io/badge/React-19-149eca?logo=react" />
-    <img alt="Gemini" src="https://img.shields.io/badge/AI-Google%20Gemini-4285F4?logo=googlegemini&logoColor=white" />
-    <img alt="Deployed on Vercel" src="https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel" />
-    <img alt="Status" src="https://img.shields.io/badge/Status-Active%20Development-16a34a" />
+    <img alt="Next.js 16" src="https://img.shields.io/badge/Next.js-16-111827?logo=next.js&logoColor=white&style=flat" />
+    <img alt="React 19" src="https://img.shields.io/badge/React-19-149eca?logo=react&style=flat" />
+    <img alt="Google Gemini" src="https://img.shields.io/badge/AI-Gemini-4285F4?logo=googlegemini&logoColor=white&style=flat" />
+    <img alt="Vercel" src="https://img.shields.io/badge/Hosted%20on-Vercel-111827?logo=vercel&logoColor=white&style=flat" />
+    <img alt="Development status" src="https://img.shields.io/badge/Status-In%20Development-16a34a?style=flat" />
   </p>
 </div>
 
