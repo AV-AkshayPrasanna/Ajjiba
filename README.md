@@ -1,15 +1,4 @@
-<!--
-  AJJIBA — README
-  Brand palette:
-  Rich Cream       #FAF6EE
-  Deep Ink Navy    #162032
-  Electric Cobalt  #2563EB
-  Coral Flame      #FF5A5F
--->
-
 <div align="center">
-
-  <img src="https://img.shields.io/badge/AJJIBA-AI-162032?style=for-the-badge&labelColor=2563EB" alt="Ajjiba AI" />
 
   <h1>Ajjiba</h1>
   <h3>Wisdom in every conversation.</h3>
@@ -20,24 +9,10 @@
   </p>
 
   <p>
-    <a href="https://github.com/AV-AkshayPrasanna/Ajjiba">
-      <img src="https://img.shields.io/badge/Project-Ajjiba-162032?style=flat-square" alt="Project Ajjiba" />
-    </a>
     <img src="https://img.shields.io/badge/AI-Google%20Gemini-2563EB?style=flat-square" alt="Google Gemini" />
     <img src="https://img.shields.io/badge/Framework-Next.js-162032?style=flat-square" alt="Next.js" />
     <img src="https://img.shields.io/badge/Status-In%20Development-FF5A5F?style=flat-square" alt="In Development" />
   </p>
-
-  <br />
-
-  <table>
-    <tr>
-      <td align="center" bgcolor="#FAF6EE"><strong><code>#FAF6EE</code></strong><br />Rich Cream</td>
-      <td align="center" bgcolor="#162032"><strong><code><font color="#FAF6EE">#162032</font></code></strong><br /><font color="#FAF6EE">Deep Ink Navy</font></td>
-      <td align="center" bgcolor="#2563EB"><strong><code><font color="#FFFFFF">#2563EB</font></code></strong><br /><font color="#FFFFFF">Electric Cobalt</font></td>
-      <td align="center" bgcolor="#FF5A5F"><strong><code><font color="#FFFFFF">#FF5A5F</font></code></strong><br /><font color="#FFFFFF">Coral Flame</font></td>
-    </tr>
-  </table>
 
 </div>
 
@@ -51,18 +26,16 @@ The name **Ajjiba** carries a personal meaning. This project is dedicated to the
 
 Powered by **Google Gemini**, Ajjiba is being developed as a conversational assistant that can understand context, follow a conversation, and respond with clarity and warmth.
 
-## Design direction
+## The Ajjiba look
 
-Ajjiba uses a distinct visual identity built around four colours:
+The interface follows a modern, energetic visual identity:
 
-| Colour | Hex | Role |
-|---|---|---|
-| Rich Cream | `#FAF6EE` | Primary surfaces and backgrounds |
-| Deep Ink Navy | `#162032` | User message bubbles and strong contrast |
-| Electric Cobalt | `#2563EB` | Primary actions, active states, and send button |
-| Coral Flame | `#FF5A5F` | Highlights, alerts, and quick-action accents |
+- **Rich Cream** — the main background, keeping the experience light and welcoming.
+- **Deep Ink Navy** — strong contrast for user messages and important text.
+- **Electric Cobalt** — primary actions, active states, and the send button.
+- **Coral Flame** — highlights, alerts, and quick-action accents.
 
-The goal is a modern, energetic interface that remains warm, calm, and highly readable.
+Together, these colours give Ajjiba a crisp, tech-forward feel without losing its warmth.
 
 ## Planned experience
 
@@ -102,18 +75,20 @@ cd Ajjiba
 npm install
 ```
 
-### 3. Configure environment variables
+### 3. Add your own Gemini API key
 
-Create a `.env.local` file in the project root:
+To run your own local copy, **you need to use your own Google Gemini API key**. The project does not include or share the maintainer's private key.
+
+Create a `.env.local` file in the project root and add:
 
 ```env
-GEMINI_API_KEY=your_gemini_api_key
+GEMINI_API_KEY=your_own_gemini_api_key
 GEMINI_MODEL=gemini-2.5-flash
 ```
 
-Get an API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
+Create your personal key in [Google AI Studio](https://aistudio.google.com/app/apikey).
 
-**Keep your API key private.** Never commit `.env.local`, expose the key through a `NEXT_PUBLIC_` variable, or paste it into public issues or screenshots.
+**Keep your key private.** Never commit `.env.local`, expose the key through a `NEXT_PUBLIC_` variable, or paste it into public issues or screenshots.
 
 ### 4. Start the development server
 
